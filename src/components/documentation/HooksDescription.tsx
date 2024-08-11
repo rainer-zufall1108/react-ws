@@ -12,7 +12,7 @@ export default function HooksDescription() {
           </li>
           <ul>
             <li>Hooks sind Javascript Funktionen für wiederverwendbare UI Logik.</li>
-            <li>Funktionen, deren Namen mit use beginnen, werden in React Hooks genannt.</li>
+            <li>Funktionen, deren Namen mit use beginnen, werden in React "Hooks" genannt.</li>
           </ul>
           <li style={{listStyle: "none"}}>
             <h4>Was ist zu beachten</h4>
@@ -30,7 +30,7 @@ export default function HooksDescription() {
               🔴 Innerhalb von Bedingungen und Schleifen.<br/>
               🔴 Nach einem return Statement einer Bedingung.<br/>
               🔴 Nicht im Event Handler.<br/>
-              🔴 In einer Klassenbasierten Komponente.<br/>
+              🔴 In einer klassenbasierten Komponente.<br/>
               🔴 Innerhalb von Funktionen, die an useMemo, useReducer oder useEffect übergeben werden<br/>
               🔴 Nicht innerhalb von try/catch/finally Blocks.<br/>
               🔴 Hooks sollten nicht als Property an eine Komponente übergeben werden.
